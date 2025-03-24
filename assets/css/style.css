@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Gothic";
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+}
+@font-face {
+    font-family: "MedievalSharp";
+    src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gothic";
+    background-image: url(../img/smoke-bg.jpg);
+    background-size: contain;
+}
+
+h1 {
+    font-family: "MedievalSharp";
+    text-transform: uppercase;
+}
