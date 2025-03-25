@@ -11,13 +11,408 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Gothic";
+body { 
     background-image: url(../img/smoke-bg.jpg);
     background-size: contain;
+    font-family: "Gothic";
+    background-size: contain;
+    z-index: -1;
 }
 
 h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
     font-family: "MedievalSharp";
     text-transform: uppercase;
+    color: #facd9f;
+}
+h4 {
+    color: white;
+    font-family: "Gothic";
+    font-weight: 600;
+    margin-bottom: 0;
+} 
+    
+h3 {
+    margin-top: 0;
+}
+
+p{
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #facd9f;
+    font-family: "MedievalSharp";
+}
+
+.btn {
+    font-family: "MedievalSharp";
+    text-transform: uppercase;
+    background: rgba(253, 253, 253, 0.1);
+    backdrop-filter: blur(5rem);
+    border: solid .5px #facd9f;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem 1rem;
+}
+.btn-primary {
+    font-size: 3rem;
+}
+
+/* début header */
+.header > nav > ul > li > a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #facd9f;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.logo-bg3 {
+    max-height: 10rem;
+    padding: 2rem 0;
+}
+
+.header {
+    padding: 2rem 15%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+/* fin header */
+
+/* début heroe */
+.heroe {
+    padding: 2rem 15%;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.party{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    height: 100vh;
+    position: absolute;
+    z-index:-1;
+    top: -10%;
+}
+
+/* fin heroe */
+
+/* début awards */
+.awards {
+    padding: 2rem 15%;
+    display: flex;
+    justify-content: center;
+}
+.award {
+    padding: 3rem;
+    border-radius: 5px;
+    border: solid .5px #facd9f;
+    background-image: url(../img/smoke-bg.jpg);
+    background-size: cover;
+    display: flex;
+    width: 60%; 
+    gap: 2rem;   
+    align-items:  center;
+}
+.award-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award-img {
+    display: flex;
+}
+
+.award-img img {
+    object-fit: contain;
+    width: 100%;
+}
+/* fin award */
+
+/* début races  */
+.game-race{
+    padding: 2rem 15%;
+}
+.races {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    position: relative;
+}
+
+.container-race {
+    margin-bottom: 3rem;
+    padding: 2rem 3rem;
+    font-family: "MedievalSharp";
+    text-align: center;
+    width: 40%;
+    height: 80vh;
+    border-radius: 5px;
+    border: solid .5px #facd9f;
+    background-image: url(../img/races-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.container-race img {
+    width: 6rem;
+}
+.container-race p {
+    margin: 0;
+}
+
+.race-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "MedievalSharp";
+    text-align: center;
+    width: 60%;
+    height: 80vh;
+    border-radius: 5px;
+    border: solid .5px #facd9f;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.race-card p {
+    color: #facd9f;
+    margin: 2rem;
+}
+
+.race-card img {
+    width: 5rem;
+    position: relative;
+    z-index: 0;
+}
+.container-race-card p {
+    color: #facd9f;
+    font-family: "Gothic";
+}
+
+.ligne {
+    border: solid 1px #facd9f;
+    width: 80%;
+    text-align: center;
+}
+
+.ligne-style{
+    width: 35%;
+}
+
+/* .ligne-style::before {
+    content: url(../svg/decoration-line--before.svg);)
+    position: absolute;
+    z-index: 1;
+} */
+
+/* fin races */
+
+/* début buy */
+.buy {
+    background-image:url(../img/buy-now-background.jpg);
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.buy p {
+    font-weight: lighter;
+}
+.container-buy {
+    max-width: 80%;
+}
+
+.buy-list {
+    display: flex;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+/* fin buy */
+
+/* début news */
+.news {
+    padding: 2rem 15%;
+}
+.btn-read {
+    font-family: "MedievalSharp";
+    color: #facd9f;
+}
+.updates {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.update-2 {
+    background-image: url(../img/news-1.jpg);
+    background-size: cover;
+}
+
+.update-1 {
+    background-image: url(../img/news-2.jpg);
+    background-size: cover;
+}
+
+.update-ps5 {
+    background-image: url(../img/news-3.jpg);
+    background-size: cover;
+}
+
+.update {
+    height: 35vh;
+    width: 23vw;
+    border-radius: 5px;
+    border: solid .5px #facd9f;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: start;
+}
+/* fin news */
+
+/* début community */
+.community {
+    padding: 2rem 15%;
+}
+.container-gallery {
+    display: flex;
+    justify-content: center;
+}
+.gallery-img {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+}
+.gallery-img img {
+    width: 24%;
+    border-radius: 0.5rem;
+}
+.community {
+    text-align: end;
+}
+/* fin community */
+
+/* début over */
+.container-over {
+    padding: 2rem 15%;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.over {
+    width: 55vw;
+    height: 50vh;
+    border-radius: 5px;
+    border: solid .5px #facd9f;
+    width: 60vw;
+    background-image: url(../img/cta-bg.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content {
+    padding: 2rem 7rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.content .btn {
+    max-width: 8rem;
+    text-transform: capitalize;
+}
+/* fin over */
+
+/* début social */
+.join {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.social {
+    margin: 2rem 15%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border-top: solid 0.5px #facd9f;
+    border-bottom: solid 0.5px #facd9f;
+}
+.tables {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.table h4 {
+    font-size: 1.2rem;
+    color: #facd9f;
+    font-family: "MedievalSharp";
+}
+
+.table a {
+    font-family: "Gothic";
+    line-height: 2em;
+}
+/* fin social */
+
+/* début footer  */
+.footer {
+    padding: 0rem 15%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.footer a{
+    color: white;
+    font-family: "Gothic";
 }

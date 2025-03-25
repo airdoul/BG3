@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <section class="header">
+    <header class="header">
+            <div>
+                <img class="logo-bg3" src="assets/img/logo-bg3.png" alt="logo-bg3">
+            </div>
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="">About</a></li>
                     <li><a href="">Races</a></li>
                     <li><a href="">News</a></li>
@@ -18,158 +20,211 @@
                     <li><a href="">Buy now</a></li>
                 </ul>
             </nav>
-        </section>
-        <img src="assets/img/logo-bg3.png" alt="logo-bg3">
     </header>
     <main>
         <section class="heroe">
-            <h1>it's party time</h1>
-            <input type="button btn-primary" value="GET IT NOW!">
+            <video class="video" src="assets/videos/hero-bg.mp4" alt="votre navigateur ne prends pas en charge cette video" type="video/mp4" autoplay loop></video>
+                <div class="party">
+                    <div>
+                        <h1>it's party time</h1>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-primary">GET IT NOW!</a>
+                    </div>
+                </div>
         </section>
         <section class="awards">
-            <div>
-                <p>BALDDUR'S GATE 3</p>
-            <h2>awards</h2>
-            </div>
-            <img src="assets/img/1.png" alt="bafta winner game">
-            <img src="assets/img/2.png" alt="game awards">
-            <img src="assets/img/3.png" alt="ign editor's choice">
-            <img src="assets/img/4.png" alt="golden joystick awards">
+            <div class="award">
+                <div class="award-title">
+                    <p>BALDDUR'S GATE 3</p>
+                <h2>awards</h2>
+                </div>
+                    <ul class="award-img">
+                        <li><img src="assets/img/1.png" alt="bafta winner game"></li>
+                        <li><img src="assets/img/2.png" alt="game awards"></li>
+                        <li><img src="assets/img/3.png" alt="ign editor's choice"></li>
+                        <li><img src="assets/img/4.png" alt="golden joystick awards"></li>
+                    </ul>
+                </div>
         </section>
-        <section class="races">
-            <h3>game races</h3>
-            <div class="race">
-                <img src="assets/img/elf.png" alt="elf">
-                <img src="assets/img/tiefling.png" alt="tiefling">
-                <img src="assets/img/drow.png" alt="drow">
-                <img src="assets/img/human.png" alt="human">
-                <img src="assets/img/githyanki.png" alt="githyanki">
-                <img src="assets/img/dwarf.png" alt="dwarf">
-                <img src="assets/img/half-elf.png" alt="half-elf">
-                <img src="assets/img/halfling.png" alt="halfling">
-                <img src="assets/img/gnome.png" alt="gnome">
-                <img src="assets/img/half-orc.png" alt="half-orc">
-                <img src="assets/img/dragonborn.png" alt="dragonborn">
-            </div>
-            <div class="race-card">
-                <img src="assets/img/elf.png" alt="elf">
-                <h4>elf</h4>
-                <p><!-- trait avec before --></p>
-                <p>With ethereal countenances and long lifespans, elves are at home withe nature's power , flourishing in light and dark alike.</p>
-                <p><!-- trait --></p>
-            </div>            
-        </section>
-        <section class="Buy">
-           <img src="assets/img/Standard-min.png" alt="img card BG3">
-           <div class="buy-now">
-            <p>Baldur's Gate 3</p>
-            <h3>buy now</h3>
-            <div class="buy-list">
-                <ul>
-                    <li><a href="">Standard</a></li>
-                    <li><a href="">Digital Deluxe</a></li>
-                    <li><a href="">Physical Delux</a></li>
-                </ul>
-            </div>
-            <p>Gather your part, and retur to the Forgotten Realms in a tale of felloxhip and betrayal, sacrifice an survival, and the lure of absolute power.</p>
-            <p>Mysterious abilities are awakening inside you, drawn from a Mind Flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.</p>
-            <p>From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons and Dragons.</p>
-           </div>
+            
+        <section class="game-race">
+            <h2>game races</h2>
+            <div class="races">
+                <div class="container-race">
+                    <div>
+                        <img src="assets/img/elf.png" alt="elf">
+                        <p>Elf</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/tiefling.png" alt="tiefling">
+                        <p>Tiefling</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/drow.png" alt="drow">
+                        <p>Drow</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/human.png" alt="human">
+                        <p>Human</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/githyanki.png" alt="githyanki">
+                        <p>Githyanki</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/dwarf.png" alt="dwarf">
+                        <p>Dwarf</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/half-elf.png" alt="half-elf">
+                        <p>Half-Elf</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/halfling.png" alt="halfling">
+                        <p>Halfing</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/gnome.png" alt="gnome">
+                        <p>Gnome</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/half-orc.png" alt="half-orc">
+                        <p>Half-Orc</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/dragonborn.png" alt="dragonborn">   
+                        <p>Dragonborn</p>
+                    </div>   
+                </div>
+                <div class="race-card">
+                    <img src="assets/img/elf.png" alt="elf">
+                    <h2>elf</h2>
+                    <p class="ligne ligne-style"><!-- trait avec before --></p>
+                    <p>With ethereal countenances and long lifespans, elves are at home withe nature's power , flourishing in light and dark alike.</p>
+                    <p class="ligne"><!-- trait --></p>
+                </div>            
+            </section>
+            <section class="buy">
+               <img src="assets/img/Standard-min.png" alt="img card BG3">
+               <div class="buy-now">
+                   <div class="container-buy">
+                        <div>
+                            <h4>Baldur's Gate 3</h4>
+                            <h3>buy now</h3>
+                        </div>
+                        <div>
+                            <ul class="buy-list">
+                                <li><a class="btn btn-buy" href="">Standard</a></li>
+                                <li><a class="btn btn-buy" href="">Digital Deluxe</a></li>
+                                <li><a class="btn btn-buy" href="">Physical Deluxe</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Gather your part, and retur to the Forgotten Realms in a tale of felloxhip and betrayal, sacrifice and survival, and the lure of absolute power.</p>
+                        </div>
+                        <div>
+                            <p>Mysterious abilities are awakening inside you, drawn from a Mind Flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.</p>
+                        </div>
+                        <div>
+                            <p>From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons and Dragons.</p>
+                        </div>
+                    </div>
+               </div>
         </section>
         <section class="news">
-            <p>News & Update</p>
+            <h4>News & Update</h4>
             <h3>community update #33 - patch 8 stress test now live</h3>
             <div class="updates">
-                <div class="update">
+                <div class="update update-2">
                     <h2>stress test update 2</h2>
                     <p>An issue affecting cross-play has been resolved, wich means players in the stress test will now be able to fully test cross-play with friends</p>
-                    <a href="">READ MORE</a>
+                    <a class="btn-read href=">READ MORE</a>
+                    
                 </div>
-                <div class="update">
+                <div class="update update-1">
                     <h2>stress test update 1</h2>
                     <p>Update #1 for th Patch 8 stress test is going live!</p>
-                    <a href="">READ MORE</a>
+                    <a class="btn-read href=">READ MORE</a>
                 </div>
-                <div class="update">
+                <div class="update update-ps5">
                     <h2>unintentional ps5 update and how to return to patch 7</h2>
                     <p>Avoid compatibility issues with savegames and mods by ininstalling and reinstalling Baldur's Gate 3 to return to Patch 7.</p>
-                    <a href="">READ MORE</a>
+                    <a class="btn-read href=">READ MORE</a>
                 </div>              
             </div>
         </section>
         <section class="community">
-            <p>Community</p>
+            <h4>Community</h4>
             <h3>gallery & fanart</h3>
-            <div class="gallery-img">
-                <img src="assets/img/gallery-1.jpeg" alt="gallery-1">
-                <img src="assets/img/gallery-2.webp" alt="gallery-2">
-                <img src="assets/img/gallery-3.webp" alt="gallery-3">
-                <img src="assets/img/gallery-4.jpeg" alt="gallery-4">
-                <img src="assets/img/gallery-5.jpeg" alt="gallery-5">
-                <img src="assets/img/gallery-6.png" alt="gallery-6">
-                <img src="assets/img/gallery-7.webp" alt="gallery-7">
-                <img src="assets/img/gallery-8.jpeg" alt="gallery-8">
+            <div class="container-gallery">
+                <div class="gallery-img">
+                    <img src="assets/img/gallery-1.jpeg" alt="gallery-1">
+                    <img src="assets/img/gallery-2.webp" alt="gallery-2">
+                    <img src="assets/img/gallery-3.webp" alt="gallery-3">
+                    <img src="assets/img/gallery-4.jpeg" alt="gallery-4">
+                    <img src="assets/img/gallery-5.jpeg" alt="gallery-5">
+                    <img src="assets/img/gallery-6.png" alt="gallery-6">
+                    <img src="assets/img/gallery-7.webp" alt="gallery-7">
+                    <img src="assets/img/gallery-8.jpeg" alt="gallery-8">
+                </div>
             </div>
         </section>
-        <section class="overlay">
-            <p>Digital Downloads</p>
-            <h2>background & overlay</h2>
-            <p>Get your hands on your very own customisable Baldur's Gate 3 stream overlays and Origin Character mobile background, for free!</p>
-            <input type="button btn-secondary" value="GET IT NOW">
-        </section>
-        <p><!-- trait --></p>
+        <section class="container-over">
+            <div class="over">
+                <div class="content">
+                    <p>Digital Downloads</p>
+                    <h2>background & overlay</h2>
+                    <p>Get your hands on your very own customisable <br>Baldur's Gate 3 stream overlays and Origin Character <br> mobile background, for free!</p>
+                    <a href="" class="btn btn-secondary" >Get it now</a>
+                </div>
+            </div>
+        </section>       
         <section class="social">
             <div class="join">
-                <p>Social Media</p>
-                <h2>join us on our <hr> adventures!</h2>
+                <h4>Social Media</h4>
+                <h2>join us on our adventures!</h2>
                 <p>©2021 Larial Studios. All rights reserved. All trademarks
                     are the property of their respective owners.
                 </p>
             </div>
-            <div class="table">
-                <table>
-                    <tr>
-                        <th>GAME</th>
-                        <th>COMMUNITY</th>
-                        <th>SUPPORT</th>
-                        <th>BUY NOW</th>
-                    </tr>
-                    <tr>
-                        <td><a href="">About</a></td>
-                        <td><a href="">Forum</a></td>
-                        <td><a href="">Support</a></td>
-                        <td><a href="">Standard Edition</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Game Feature</a></td>
-                        <td><a href="">Discord</a></td>
-                        <td><a href="">FAQ</a></td>
-                        <td><a href="">Digital Deluxe Edition</a></td>
-                    </tr> 
-                    <tr>
-                        <td><a href="">Full Cast</a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                        <td><a href="">Physical Deluxe Edition</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="">News & Update</a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Press</a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                        <td><a href=""></a></td>
-                    </tr>
-                </table>
+            <div class="tables">
+                <div class="table">
+                    <h4>GAME</h4>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Game Feature</a></li>
+                        <li><a href="">Full Cast</a></li>
+                        <li><a href="">News & Update</a></li>
+                        <li><a href="">Press</a></li>
+                    </ul>
+                </div>
+                <div class="table">
+                    <h4>COMMUNITY</h4>
+                    <ul>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Discord</a></li>
+                    </ul>
+                </div>
+                <div class="table">
+                    <h4>SUPPORT</h4>
+                    <ul>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="table">
+                    <h4>BUY NOW</h4>
+                    <ul>
+                        <li><a href="">Standard Edition</a></li>
+                        <li><a href="">Digital Deluxe Edition</a></li>
+                        <li><a href="">Physical Deluxe Edition</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <p><!-- trait --></p>
-        <section>
-            <ul>
+        <section >
+            <ul class="footer">
                 <li><a href="">Privacy Policy</a></li>
                 <li><a href="">Terms of Service</a></li>
                 <li><a href="">Legal Information</a></li>
